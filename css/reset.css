@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+
+  background: linear-gradient(179.94deg, #FFAFBD 0.05%, #FDB7C5 61.97%, #F6DBE8 99.93%, #FFFFFF 99.94%);
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "sobre_mim"
+  "meus_desenhos"
+  "comissões"
+  "contatos"
+  ;
+  grid-template-rows: 500px 1fr 1fr 1fr 500px;
+  height: 11620px;
+}
+
+#header {
+  grid-area: header;
+}
+
+#sobre_mim {
+  grid-area: sobre_mim;
+}
+
+#meus_desenhos {
+  grid-area: meus_desenhos;
+}
+
+#comissões {
+  grid-area: comissões;
+}
+
+#contatos {
+  grid-area: contatos;
+}
