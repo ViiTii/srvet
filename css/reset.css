@@ -5,18 +5,20 @@
 }
  
 body {
-
   background: linear-gradient(179.94deg, #FFAFBD 0.05%, #FDB7C5 61.97%, #F6DBE8 99.93%, #FFFFFF 99.94%);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: grid;
   grid-template-areas: 
   "header"
   "sobre_mim"
   "meus_desenhos"
   "comissões"
-  "contatos"
-  ;
+  "contatos";
   grid-template-rows: 500px 1fr 1fr 1fr 500px;
-  height: 11620px;
+  height: 100%;
+  width: 100%;
+  font-family: 'Pacifico', cursive;
 }
 
 #header {
